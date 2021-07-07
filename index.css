@@ -1,0 +1,42 @@
+* {
+   border: 5px solid red;
+   max-width: 100%;
+   overflow: hidden;
+   padding: 0;
+   margin: 0;
+}
+
+header {
+    height: 125px;
+    width: 125 px;
+}
+
+.logo {
+    height: 50px;
+    width: 60px;
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    margin: 50px 25px 50px 25px;
+    background-color: green;
+}
+
+nav a {
+    margin-right: 12.5%;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.links {
+
+}
