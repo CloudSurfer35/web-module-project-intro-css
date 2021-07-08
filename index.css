@@ -1,42 +1,84 @@
-* {
-   border: 5px solid red;
-   max-width: 100%;
-   overflow: hidden;
-   padding: 0;
-   margin: 0;
-}
-
-header {
-    height: 125px;
-    width: 125 px;
-}
-
-.logo {
-    height: 50px;
-    width: 60px;
-    display: inline-block;
-}
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 
 nav {
-    display: inline-block;
-    width: 100%;
     text-align: center;
-    height: 40px;
-    margin: 50px 25px 50px 25px;
-    background-color: green;
+    padding: 2%;
+}
+.nav1 {
+    background-color: #FF764E;
+    padding: 1%;
+}
+
+.nav2 {
+    background-color: #5ED3EB;
+    padding: 1%;
+}
+
+.nav3 {
+    background-color: #FFCD69;
+    padding: 1%;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 250%;
+    padding: 1%;
+}
+
+.header p {
+    position: relative;
+    padding: 1%;
+
+}
+body {
+    font-family: 'Roboto Mono', monospace;
 }
 
 nav a {
-    margin-right: 12.5%;
+    border-radius: 30px;
     text-decoration: none;
+    color: white;
+    text-align: center
+    padding: 2%;
 }
 
+.textOnly {
+     background: #DDB9A3;
+     color: white;
+     position: relative;
+     margin-top: 10%;
+     
+footer {
+    background: #F9E7DC;
+}
 
+span {
+    font-weight: bold;
+}
 
+.headerText {
+    position: relative;
+    margin-left: 20%;
+    margin-top: -15%;
+    text-align: center;
+}
+    
 
+.header img {
+    border-radius: 9999px;
+    height: 200px;
+    width: 200px;
+    padding: 50px;
+    
+}
 
+footer img {
+    position: relative;
+}
 
-
-.links {
-
+.campfire {
+    position: relative
+    margin-left: 20%;
+    margin-right: 20%;
 }
